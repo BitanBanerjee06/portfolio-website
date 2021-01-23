@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+ 
+body{
+    
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto' , Arial, Helvetica, sans-serif;
+}
+
+/*--------FIRST SECTION----------*/
+section {
+    padding: 0em 1em;
+    text-align: center;
+}
+section .left{
+    
+    padding: 0em 3em ;
+    
+}
+section .left h1{
+    font-size: 50px;
+    background-image: linear-gradient(60deg, #23BDEE, #31FF6B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1em 0;
+    
+}
+h2{
+    padding:0em 0 1em 0;
+    font-size: 30px;
+    font-weight: 550;
+}
+p{
+    margin-bottom: 5em;
+    font-size: 16px;
+}
+
+section .right img{
+    box-shadow: -7px 18px 58px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 5em;
+}
+.lines{
+    width:25%;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 0em 0em 2em 0em;
+}
+.line1{
+    background:linear-gradient(60deg, #23BDEE, #31FF6B);;
+    float: left;
+    height: 5px;
+    width: 70%;
+    border-radius: 2.5px;
+}
+.line2{
+    background: linear-gradient(60deg, #23BDEE, #31FF6B);;
+    float: right;
+    height: 5px;
+    width: 70%;
+    border-radius: 2.5px;
+}
+
+
+/*--------SECOND SECTION----------*/
+
+
+.second{
+    
+    padding:3em;
+    text-align: center;
+    background:linear-gradient(90deg, #23BDEE, #31FF6B);
+}
+.second h1{
+    padding: 1em 0;
+    font-size: 50px;
+    
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+.second ul li{
+    list-style-type: none;
+    background: white;
+    padding: 2em 2em 0em 2em;
+    border-radius: 20px;
+    box-shadow: -7px 18px 58px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3em;
+}
+.second ul li p{
+    margin-bottom: 50px;
+}
+ul li img{
+    width: 40%;
+    margin-bottom: 2em;
+}
+
+
+
+/*--------THIRD SECTION----------*/
+
+.third{
+    padding: 8em 3em;
+    
+    background: white;
+}
+.third h1{
+    text-align: center;
+}
+.third ul li{
+    list-style-type:none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.third ul li .slider-details{
+    display: flex;
+    justify-content: space-between;
+}
+.third ul li .slider-details .left span {
+    margin-left: 10px;
+    color: rgb(170, 170, 170);
+}
+.third ul li .slider-details .right span{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.third ul li .slider{
+    width: 100%;
+    height:10px;
+    border-radius: 7.5px;
+    background: white;
+    box-shadow: 0 5px 15px 0 rgb(7 33 66 / 35%);
+    margin-bottom:3em;
+}
+.third ul li .growth90{
+    width:90%;
+    height: 100%;
+    background:linear-gradient(90deg, #23BDEE, #31FF6B);
+    border-radius: 7.5px;
+}
+.third ul li .growth50{
+    width:50%;
+    height: 100%;
+    background:linear-gradient(90deg, #23BDEE, #31FF6B);
+    border-radius: 7.5px;
+}
+
+
+.third ul li .growth80{
+    width:80%;
+    height: 100%;
+    background:linear-gradient(90deg, #23BDEE, #31FF6B);
+    border-radius: 7.5px;
+}
+.third ul li .growth60{
+    width:60%;
+    height: 100%;
+    background:linear-gradient(90deg, #23BDEE, #31FF6B);
+    border-radius: 7.5px;
+}
+
+/*----------FOOTER------------*/
+
+.footer{
+    padding: 3em;
+    text-align: center;
+    background:linear-gradient(90deg, #23BDEE, #31FF6B);
+    
+    
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+.footer img{
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+@media only screen and (min-width:700px){
+
+    section{
+        display:flex;
+        text-align: left;
+        justify-content: space-between;
+    }
+    
+section .lines{
+    width:25%;
+    margin: 0;
+    padding:0;
+    margin-bottom: 2em;
+}
+section .right{
+    padding: 25em 0 0 0;
+    
+}
+.second{
+    
+    padding:2em 7em;
+
+}
+
+.third{
+    padding: 8em 3em;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+.skill .left0{
+    width: 40%;
+}
+.skill .right0{
+    width: 40%;
+}
+.third ul li .slider-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+}
+@media only screen and (min-width:760px){
+
+    section .right{
+        padding: 23em 0 0 0;
+        
+    }
+}
+
+@media only screen and (min-width:860px){
+
+    section .right{
+        padding: 21em 0 0 0;
+        
+    }
+    section .left h1{
+        margin-top:-50px;
+        font-size: 70px;
+    }
+    h2{
+        
+        font-size: 40px;
+        font-weight: 550;
+    }
+    .second{
+    
+        padding:2em 10em;
+    
+    }
+    .second ul li {
+        padding: 3em;
+    }
+    ul li img{
+        width: 20%;
+        margin-bottom: 2em;
+    }
+    .third{
+        padding: 8em 5em;
+    }
+
+
+}
+    
+
+
+@media only screen and (min-width:960px){
+
+    section .right{
+        padding: 20em 0 0 0;
+    }
+   
+}
+
+
+@media only screen and (min-width:1000px){
+
+    section .right{
+        padding: 17em 0 0 0;
+    }
+}
+@media only screen and (min-width:1060px){
+    section{
+        padding: 2em;
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        padding: 17em 0 0 0;
+        width: 40%;
+    }
+    section .left{
+        width:40%;
+        
+    }
+    .second{
+        
+        padding: 4em ;
+    }
+    .second ul{
+        
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 2em;
+    }
+    .second ul li{
+        min-width :225px;
+        padding: 2em;
+    }
+    ul li img{
+        width: 40%;
+        margin-bottom: 2em;
+    }
+
+
+}
+
+
+@media only screen and (min-width:1160px){
+    section{
+        padding: 3em;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        
+        padding: 15em 0 0 0;
+        width: 40%;
+    }
+    section .left{
+        width:40%;
+        
+    }
+}
+@media only screen and (min-width:1360px){
+    section{
+        padding: 4em;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        
+        padding: 12em 0 0 0;
+        width: 40%;
+    }
+    section .left{
+        width:40%;
+        
+    }
+}
+
+@media only screen and (min-width:1420px){
+    section{
+        padding: 4em 5em;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        
+        padding: 18em 0 0 0;
+        width: 30%;
+    }
+    section .left{
+        width:40%;
+        
+    }
+    
+.third{
+    
+    padding: 8em 12em;
+}
+}
+@media only screen and (min-width:1560px){
+    section{
+        padding:  4em 6em;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        
+        padding: 18em 0 0 0;
+        width: 30%;
+    }
+    section .left{
+        width:30%;
+        
+    }
+    .third{
+    
+        padding: 8em 14em;
+    }
+}
+@media only screen and (min-width:1700px){
+    section{
+        padding:  4em 12em;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        
+        padding: 15em 5em 0 0;
+        width: 30%;
+    }
+    section .left{
+        width:30%;
+        
+    }
+    .third{
+    
+        padding: 8em 18em;
+    }
+}
+
+@media only screen and (min-width:1730px){
+    section{
+        padding:  4em 12em;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    section .right{
+        
+        padding: 18em 5em 0 0;
+        width: 30%;
+    }
+    section .left{
+        width:30%;
+        
+    }
+    .second{
+        
+        padding: 2em ;
+    }
+    .second ul{
+        
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 4em;
+    }
+    .second ul li{
+        min-width :225px;
+        padding: 2em;
+    }
+    ul li img{
+        width: 40%;
+        margin-bottom: 2em;
+    }
+    .third{
+    
+        padding: 8em 18em;
+    }
+}
